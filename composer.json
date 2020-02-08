@@ -1,0 +1,21 @@
+{
+    "name": "haveyb/tiny-laravel",
+    "description": "this is a tiny laravel haveyb",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haveyb",
+            "email": "haveyb@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "haveyb\\TinyLaravel\\":"./src/"
+        }
+    }
+}
