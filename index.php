@@ -11,7 +11,7 @@ $app = new Application();
 // 测试
 $db = $app->make('db');
 echo $db->getDatabase();
-
+echo 'yes';
 
 
 
