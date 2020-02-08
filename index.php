@@ -5,3 +5,4 @@ use haveyb\TinyLaravel\database\MySQL;
 
 $mysql = new MySQL();
 echo $mysql->getDatabase();
+echo 3;
