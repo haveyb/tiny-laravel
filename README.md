@@ -1,2 +1,2 @@
 # tiny-laravel
-this is a tiny-laravel for test
+这是一个自建的composer包，用于教程
