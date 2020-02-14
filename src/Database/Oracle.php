@@ -2,7 +2,9 @@
 declare(strict_types = 1);
 namespace haveyb\TinyLaravel\Database;
 
-class MySQL
+use haveyb\TinyLaravel\Contracts\Database\DB;
+
+class Oracle
 {
     /**
      * 测试用例
@@ -12,6 +14,8 @@ class MySQL
      */
     public function getDatabase() : string
     {
-        return 'this is mysql get database function';
+        return 'this is oracle get database function';
     }
+
+
 }

@@ -4,7 +4,9 @@ declare(strict_types = 1);
 namespace haveyb\TinyLaravel\Application;
 
 use haveyb\TinyLaravel\Container\Container;
+use haveyb\TinyLaravel\Contracts\Database\DB;
 use haveyb\TinyLaravel\Database\MySQL;
+use haveyb\TinyLaravel\Database\Oracle;
 
 
 /**
@@ -28,6 +30,7 @@ class Application extends Container
     {
         $bind = [
             'db' => MySQL::class,
+            DB::class => Oracle::class
         ];
         foreach ($bind as $key => $value) {
             $this->bind($key, $value);
